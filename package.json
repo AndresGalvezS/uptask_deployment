@@ -1,0 +1,45 @@
+{
+  "name": "uptasknodejs",
+  "version": "1.0.0",
+  "description": "Proyecto UpTask con Node y MVC Bootcamp",
+  "main": "index.js",
+  "scripts": {
+    "desarrollo":"concurrently \"npm run dev \" \"npm run watch \"",
+    "dev": "nodemon ./index.js",
+    "start": "node ./index.js",
+    "watch": "webpack --w --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrés Gálvez Sedelmayer",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bcrypt-nodejs": "0.0.3",
+    "concurrently": "^5.2.0",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "express-validator": "^6.6.0",
+    "html-to-text": "^5.1.1",
+    "juice": "^7.0.0",
+    "mysql2": "^2.1.0",
+    "nodemailer": "^6.4.11",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "pug": "^3.0.0",
+    "sequelize": "^6.3.3",
+    "shortid": "^2.2.15",
+    "slug": "^3.3.2",
+    "sweetalert2": "^9.17.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "nodemon": "^2.0.4",
+    "webpack": "^4.44.0",
+    "webpack-cli": "^3.3.12"
+  }
+}
