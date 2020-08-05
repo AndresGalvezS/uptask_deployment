@@ -81,9 +81,6 @@ app.use((request, response, next)=>{
 
 app.use('/', routes());
 
-app.listen(3000);
-
-
 //Servidor y Puerto
 const host = process.env.HOST || '0.0.0.0';
 const port = process.env.PORT || 3000;
