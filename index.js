@@ -82,9 +82,9 @@ app.use((request, response, next)=>{
 app.use('/', routes());
 
 //Servidor y Puerto
-const host = process.env.HOST || '0.0.0.0';
-const port = process.env.PORT || 3000;
+const HOST = process.env.HOST || '0.0.0.0';
+const PORT = process.env.PORT || 3000;
 
-app.listen(port, host, ()=>{
+app.listen(PORT, HOST, ()=>{
     console.log('El servidor esta funcionando.');
 })
