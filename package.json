@@ -13,7 +13,7 @@
   "author": "Andrés Gálvez Sedelmayer",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "bcrypt-nodejs": "0.0.3",
     "concurrently": "^5.2.0",
     "connect-flash": "^0.1.1",
